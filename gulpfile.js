@@ -105,6 +105,9 @@ gulp.task("style", function () {
 			'node_modules/ion-rangeslider/css/ion.rangeSlider.css',
 			'node_modules/jquery-form-styler/dist/jquery.formstyler.css',
 			'node_modules/jquery-form-styler/dist/jquery.formstyler.theme.css',
+			'node_modules/animate.css/animate.min.css',
+			'node_modules/animate.css/animate.css',
+			'node_modules/animate.css/animate.compat.css',
 		])
 		.pipe(concat("libs.min.css")) //склеиваем их в один файл с указанным именем
 		.pipe(cssmin()) //минифицируем полученный файл
@@ -122,9 +125,10 @@ gulp.task("script", function () {
 			'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
 			'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
 			'node_modules/rateyo/src/jquery.rateyo.js',
-			'node_modules/mixitup/dist/mixitup.js',
+			'node_modules/mixitup/dist/mixitup.js' ,
 			'node_modules/ion-rangeslider/js/ion.rangeSlider.js',
-			'node_modules/jquery-form-styler/dist/jquery.formstyler.js'
+			'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
+			'node_modules/wow.js/dist/wow.js',
 		])
 		.pipe(size())
 		.pipe(babel())

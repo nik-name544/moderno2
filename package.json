@@ -13,6 +13,7 @@
     "@babel/core": "^7.10.1",
     "@babel/preset-env": "^7.10.1",
     "@fancyapps/fancybox": "^3.5.7",
+    "animate.css": "^4.1.0",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "fontforge": "^0.0.4",
@@ -50,6 +51,7 @@
     "imagemin-pngquant": "^8.0.0",
     "ion-rangeslider": "^2.3.1",
     "jquery-form-styler": "^2.0.2",
+    "magic.css": "^1.4.6",
     "magnific-popup": "^1.1.0",
     "mixitup": "^3.3.1",
     "rateyo": "^2.3.5",
@@ -57,7 +59,8 @@
     "sass": "^1.26.7",
     "slick-carousel": "^1.8.1",
     "ttf2woff": "^2.0.2",
-    "ttf2woff2": "^3.0.0"
+    "ttf2woff2": "^3.0.0",
+    "wow.js": "^1.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
